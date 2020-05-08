@@ -1,0 +1,410 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    background-image: url(../images/fon.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(../images/main-bg.jpg) no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo__link {
+    outline: none;
+}
+
+.header__form input {
+    border: none;
+    border-bottom: 2px solid #c1ada8;
+    width: 374px;
+    min-height: 48px;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+.header__text {
+    margin: 36px 0;
+}
+
+.header__text h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 36px;
+}
+
+.header__text p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+}
+
+.header__contacts {
+    text-align: right;
+    width: 360px;
+}
+
+.header__icons {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 19px;
+    padding-bottom: 29px;
+}
+
+.telephone {}
+
+.telephone__info {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.telephone__name {
+    font-size: 20px;
+    color: #fff;
+}
+
+.telephone__number {
+    font-size: 33px;
+    color: #fff;
+}
+
+.navigation {
+    width: 100%;
+    min-height: 57px;
+    background-color: #ee7b23;
+    align-items: center;
+}
+
+.navigation__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation__link {
+    line-height: 57px;
+    font-size: 20px;
+    padding: 0 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation__link li {
+    color: #ffffff;
+}
+
+.navigation__link:hover {
+    background-color: #060607;
+}
+
+.navigation__link--delivery {
+    padding: 0 15px 0 55px;
+}
+
+.main-bg {
+    height: 888px;
+}
+
+.popular {
+    background-color: #ee7b23;
+}
+
+.popular p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    height: 57px;
+    color: #fff;
+}
+
+.menu__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff8e8;
+    padding-top: 55px;
+}
+
+.menu__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    max-width: 19%;
+    text-align: center;
+}
+
+.menu__link {
+    display: block;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.menu__weight {
+    display: block;
+    width: 87px;
+    margin: 0 auto;
+    background-color: #370f07;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 3px 0;
+}
+
+.menu__image img {
+    margin-bottom: 15px;
+}
+
+.menu__description {
+    color: #370f07;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 13px 0;
+}
+
+.menu__price {
+    font-size: 25px;
+    color: #ee7b23;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.menu__more-info {
+    background-color: #AD9F9C;
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.menu__more-info:hover {
+    background-color: #a7a7a1;
+}
+
+.info__wrapper {
+    background: url(../images/info-bg.jpg);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.info__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+    text-align: center;
+}
+
+.info__item {
+    width: 360px;
+}
+
+.info__title {
+    font-size: 18px;
+    color: #fff;
+}
+
+.info__description {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.app {
+    margin-top: 60px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about__text--small {
+    margin: 0;
+    font-size: 19px;
+}
+
+.info .about__text {
+    font-size: 60px;
+    margin: 0 0 30px;
+    line-height: 45px;
+}
+
+.app {
+    padding: 50px 0;
+    background: url(../images/app-bg.jpg);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.app__download {
+    text-align: center;
+}
+
+.about__text--small {
+    font-size: 19px;
+    margin: 0;
+    color: #fff;
+}
+
+.about__title {
+    margin: 0;
+    font-size: 60px;
+    color: #fff;
+}
+
+.about__text {
+    margin: 22px 0;
+    font-size: 22px;
+    color: #fff;
+}
+
+.app__download img {
+    margin: 0 20px;
+}
+
+.ads {
+    padding: 50px 0;
+}
+
+.ads__list {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ads__info {
+    background-color: rgba(255, 255, 255, .7);
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.ads__item img {
+    height: 226px;
+}
+
+.ads__title {
+    margin: 0;
+    color: #434a54;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ads__name {
+    margin: 0;
+    color: #aab2bd;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: rgba(68, 29, 19, .6);
+    padding: 40px 0 30px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__places {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__delivery {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__delivery--second {
+    display: flex;
+    flex-direction: column;
+    padding-top: 34px;
+}
+
+.footer__link {
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer__link:hover {
+    text-decoration: none;
+}
+
+.footer__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer__title a {
+    color: #fff;
+}
+
+.footer__number {
+    margin: 60px 0 30px;
+    color: #fff;
+}
+
+.footer__number-name {
+    font-size: 20px;
+}
+
+.footer__number-telephone {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.footer__copyrighting {
+    max-width: 165px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.footer__payment {
+    display: flex;
+    justify-content: center;
+}
